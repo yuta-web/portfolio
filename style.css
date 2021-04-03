@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+h1{
+    margin-left: 50px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile section{
+    width: 400px;
+    margin: 20px;
+}
+.profile section ul li{
+    margin: 5px;
+}
+.skill{
+    background:white;
+}
+.skill .top h1{
+    color: black;
+}
+.skill ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill ul li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2vw;
+}
+.skill ul li img{
+    width: 8vw;
+    height: auto;
+}
+.skill ul li p{
+    color: black;
+    text-align: center;
+}
+.portfolio ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.portfolio ul li{
+    margin: 2vw;
+}
+.portfolio ul li a img{
+    width: 25vw;
+    height: auto;
+    border: 1px solid white;
+}
+.portfolio ul li a h2{
+    font-size: 1.5vw;
+}
+.portfolio ul li a p{
+    font-size: 1vw;
+}
+/* belongs */
+.belongs ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.belongs ul li{
+    width: 500px;
+    margin: 3vw;
+}
+.belongs ul li a img{
+    width: 15vw;
+    height: auto;
+    border: 1px solid white;
+    object-fit: cover;
+}
+.belongs ul li a h2{
+    font-size:1.7vw;
+}
+.belongs ul li a p{
+    font-size:1.7vw;
+}
